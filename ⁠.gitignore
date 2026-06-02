@@ -1,5 +1,32 @@
-terraform/.terraform/
-terraform/*.tfstate
-terraform/*.tfstate.backup
+# ========================
+# Terraform
+# ========================
+# Ignore local terraform environments and state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+
+# ========================
+# Lambda / Build Artifacts
+# ========================
 lambda/parser.zip
 lambda/package/
+
+# ========================
+# Python & Testing
+# ========================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+env/
+
+# ========================
+# Security & OS
+# ========================
+.env
+.DS_Store
+.vscode/
+.idea/

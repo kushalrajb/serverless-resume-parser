@@ -1,0 +1,7 @@
+---
+directory:
+  - "terraform"
+framework:
+  - "terraform"
+quiet: true
+soft-fail: true
